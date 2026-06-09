@@ -32,5 +32,20 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone [https://github.com/ВАШ_НИКНЕЙМ/ИМЯ_РЕПОЗИТОРИЯ.git](https://github.com/ВАШ_НИКНЕЙМ/ИМЯ_РЕПОЗИТОРИЯ.git)
-cd ИМЯ_РЕПОЗИТОРИЯ
+git clone [https://github.com/Aiden-Kadr/auto-face-aligner-optimizer.git](https://github.com/Aiden-Kadr/auto-face-aligner-optimizer.git)
+cd auto-face-aligner-optimizer 
+```
+2. Установка зависимостей
+Установите необходимые пакеты через менеджер пакетов pip:
+
+``` Bash
+pip install opencv-python dlib
+```
+3. Скачивание ИИ-модели
+Для работы скрипта необходима предобученная модель распознавания лиц dlib.
+
+Скачайте файл модели: shape_predictor_68_face_landmarks.dat (его можно найти в открытом доступе на GitHub или официальном сайте dlib).
+
+Положите распакованный файл .dat в корневую папку проекта (туда же, где лежит ваш скрипт).
+
+4. Запуск программы
